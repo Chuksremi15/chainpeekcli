@@ -1,15 +1,14 @@
 # Chain Peek CLI
 
 <!-- toc -->
-
-- [Usage](#usage)
-- [Commands](#commands)
+* [Chain Peek CLI](#chain-peek-cli)
+* [Usage](#usage)
+* [Commands](#commands)
 <!-- tocstop -->
 
 # Usage
 
 <!-- usage -->
-
 ```sh-session
 $ npm install -g chainpeekcli
 $ peek COMMAND
@@ -21,46 +20,44 @@ USAGE
   $ peek COMMAND
 ...
 ```
-
 <!-- usagestop -->
 
 # Commands
 
 <!-- commands -->
-
-- [`peek abi-events NAME`](#peek-abi-events-name)
-- [`peek abi-methods NAME`](#peek-abi-methods-name)
-- [`peek abi delete NAME`](#peek-abi-delete-name)
-- [`peek abi event NAME`](#peek-abi-event-name)
-- [`peek abi get NAME`](#peek-abi-get-name)
-- [`peek abi list`](#peek-abi-list)
-- [`peek abi method NAME`](#peek-abi-method-name)
-- [`peek abi set NAME ABIPATH`](#peek-abi-set-name-abipath)
-- [`peek address address_to_ens ADDRESS`](#peek-address-address_to_ens-address)
-- [`peek address balance ADDRESS`](#peek-address-balance-address)
-- [`peek address ens_to_address ENS`](#peek-address-ens_to_address-ens)
-- [`peek block-number`](#peek-block-number)
-- [`peek block number`](#peek-block-number-1)
-- [`peek block transaction_hash [BLOCK_NUMBER]`](#peek-block-transaction_hash-block_number)
-- [`peek contract ADDRESS ABI`](#peek-contract-address-abi)
-- [`peek delete-abi NAME`](#peek-delete-abi-name)
-- [`peek deploy FILENAME FILEPATH`](#peek-deploy-filename-filepath)
-- [`peek event watch ADDRESS ABI EVENT`](#peek-event-watch-address-abi-event)
-- [`peek events-watch ADDRESS ABI EVENT`](#peek-events-watch-address-abi-event)
-- [`peek get-abi NAME`](#peek-get-abi-name)
-- [`peek help [COMMANDS]`](#peek-help-commands)
-- [`peek list-abi`](#peek-list-abi)
-- [`peek plugins`](#peek-plugins)
-- [`peek plugins:install PLUGIN...`](#peek-pluginsinstall-plugin)
-- [`peek plugins:inspect PLUGIN...`](#peek-pluginsinspect-plugin)
-- [`peek plugins:install PLUGIN...`](#peek-pluginsinstall-plugin-1)
-- [`peek plugins:link PLUGIN`](#peek-pluginslink-plugin)
-- [`peek plugins:uninstall PLUGIN...`](#peek-pluginsuninstall-plugin)
-- [`peek plugins:uninstall PLUGIN...`](#peek-pluginsuninstall-plugin-1)
-- [`peek plugins:uninstall PLUGIN...`](#peek-pluginsuninstall-plugin-2)
-- [`peek plugins update`](#peek-plugins-update)
-- [`peek set-abi NAME ABIPATH`](#peek-set-abi-name-abipath)
-- [`peek wallet generate`](#peek-wallet-generate)
+* [`peek abi-events NAME`](#peek-abi-events-name)
+* [`peek abi-methods NAME`](#peek-abi-methods-name)
+* [`peek abi delete NAME`](#peek-abi-delete-name)
+* [`peek abi event NAME`](#peek-abi-event-name)
+* [`peek abi get NAME`](#peek-abi-get-name)
+* [`peek abi list`](#peek-abi-list)
+* [`peek abi method NAME`](#peek-abi-method-name)
+* [`peek abi set NAME ABIPATH`](#peek-abi-set-name-abipath)
+* [`peek address address_to_ens ADDRESS`](#peek-address-address_to_ens-address)
+* [`peek address balance ADDRESS`](#peek-address-balance-address)
+* [`peek address ens_to_address ENS`](#peek-address-ens_to_address-ens)
+* [`peek block-number`](#peek-block-number)
+* [`peek block number`](#peek-block-number-1)
+* [`peek block transaction_hash [BLOCK_NUMBER]`](#peek-block-transaction_hash-block_number)
+* [`peek contract ADDRESS ABI`](#peek-contract-address-abi)
+* [`peek delete-abi NAME`](#peek-delete-abi-name)
+* [`peek deploy FILENAME FILEPATH`](#peek-deploy-filename-filepath)
+* [`peek event watch ADDRESS ABI EVENT`](#peek-event-watch-address-abi-event)
+* [`peek events-watch ADDRESS ABI EVENT`](#peek-events-watch-address-abi-event)
+* [`peek get-abi NAME`](#peek-get-abi-name)
+* [`peek help [COMMANDS]`](#peek-help-commands)
+* [`peek list-abi`](#peek-list-abi)
+* [`peek plugins`](#peek-plugins)
+* [`peek plugins:install PLUGIN...`](#peek-pluginsinstall-plugin)
+* [`peek plugins:inspect PLUGIN...`](#peek-pluginsinspect-plugin)
+* [`peek plugins:install PLUGIN...`](#peek-pluginsinstall-plugin-1)
+* [`peek plugins:link PLUGIN`](#peek-pluginslink-plugin)
+* [`peek plugins:uninstall PLUGIN...`](#peek-pluginsuninstall-plugin)
+* [`peek plugins:uninstall PLUGIN...`](#peek-pluginsuninstall-plugin-1)
+* [`peek plugins:uninstall PLUGIN...`](#peek-pluginsuninstall-plugin-2)
+* [`peek plugins update`](#peek-plugins-update)
+* [`peek set-abi NAME ABIPATH`](#peek-set-abi-name-abipath)
+* [`peek wallet generate`](#peek-wallet-generate)
 
 ## `peek abi-events NAME`
 
@@ -749,7 +746,7 @@ ALIASES
   $ peek plugins add
 
 EXAMPLES
-  $ peek plugins:install myplugin
+  $ peek plugins:install myplugin 
 
   $ peek plugins:install https://github.com/someuser/someplugin
 
@@ -814,7 +811,7 @@ ALIASES
   $ peek plugins add
 
 EXAMPLES
-  $ peek plugins:install myplugin
+  $ peek plugins:install myplugin 
 
   $ peek plugins:install https://github.com/someuser/someplugin
 
@@ -984,5 +981,4 @@ EXAMPLES
 ```
 
 _See code: [dist/commands/wallet/generate.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v0.0.0/dist/commands/wallet/generate.ts)_
-
 <!-- commandsstop -->
