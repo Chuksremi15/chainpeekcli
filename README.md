@@ -14,7 +14,7 @@ $ npm install -g chainpeekcli
 $ peek COMMAND
 running command...
 $ peek (--version)
-chainpeekcli/0.0.0 darwin-x64 node-v18.16.0
+chainpeekcli/1.0.0 darwin-x64 node-v18.16.0
 $ peek --help [COMMAND]
 USAGE
   $ peek COMMAND
@@ -122,7 +122,7 @@ EXAMPLES
   $ peek abi delete erc20ABI
 ```
 
-_See code: [dist/commands/abi/delete.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v0.0.0/dist/commands/abi/delete.ts)_
+_See code: [dist/commands/abi/delete.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v1.0.0/dist/commands/abi/delete.ts)_
 
 ## `peek abi event NAME`
 
@@ -145,7 +145,7 @@ EXAMPLES
   $ peek abi event erc20ABI
 ```
 
-_See code: [dist/commands/abi/event.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v0.0.0/dist/commands/abi/event.ts)_
+_See code: [dist/commands/abi/event.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v1.0.0/dist/commands/abi/event.ts)_
 
 ## `peek abi get NAME`
 
@@ -168,7 +168,7 @@ EXAMPLES
   $ peek abi get erc20ABI
 ```
 
-_See code: [dist/commands/abi/get.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v0.0.0/dist/commands/abi/get.ts)_
+_See code: [dist/commands/abi/get.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v1.0.0/dist/commands/abi/get.ts)_
 
 ## `peek abi list`
 
@@ -188,7 +188,7 @@ EXAMPLES
   $ peek abi list
 ```
 
-_See code: [dist/commands/abi/list.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v0.0.0/dist/commands/abi/list.ts)_
+_See code: [dist/commands/abi/list.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v1.0.0/dist/commands/abi/list.ts)_
 
 ## `peek abi method NAME`
 
@@ -211,7 +211,7 @@ EXAMPLES
   $ peek abi method erc20ABI
 ```
 
-_See code: [dist/commands/abi/method.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v0.0.0/dist/commands/abi/method.ts)_
+_See code: [dist/commands/abi/method.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v1.0.0/dist/commands/abi/method.ts)_
 
 ## `peek abi set NAME ABIPATH`
 
@@ -235,7 +235,7 @@ EXAMPLES
   $ peek abi set erc20ABI src/abi/erc20abi.json
 ```
 
-_See code: [dist/commands/abi/set.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v0.0.0/dist/commands/abi/set.ts)_
+_See code: [dist/commands/abi/set.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v1.0.0/dist/commands/abi/set.ts)_
 
 ## `peek address address_to_ens ADDRESS`
 
@@ -271,7 +271,7 @@ EXAMPLES
   $ peek address address_to_ens  0x34aA3F359A9D614239015126635CE7732c18fDF3 --rpc_url=[PROVIDER_URL]
 ```
 
-_See code: [dist/commands/address/address_to_ens.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v0.0.0/dist/commands/address/address_to_ens.ts)_
+_See code: [dist/commands/address/address_to_ens.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v1.0.0/dist/commands/address/address_to_ens.ts)_
 
 ## `peek address balance ADDRESS`
 
@@ -304,7 +304,7 @@ EXAMPLES
   $ peek address balance
 ```
 
-_See code: [dist/commands/address/balance.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v0.0.0/dist/commands/address/balance.ts)_
+_See code: [dist/commands/address/balance.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v1.0.0/dist/commands/address/balance.ts)_
 
 ## `peek address ens_to_address ENS`
 
@@ -340,7 +340,7 @@ EXAMPLES
   $ peek address ens_to_address atg.eth --rpc_url=[PROVIDER_URL]
 ```
 
-_See code: [dist/commands/address/ens_to_address.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v0.0.0/dist/commands/address/ens_to_address.ts)_
+_See code: [dist/commands/address/ens_to_address.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v1.0.0/dist/commands/address/ens_to_address.ts)_
 
 ## `peek block-number`
 
@@ -408,7 +408,7 @@ EXAMPLES
   $ peek block number --rpc_url=[PROVIDER_URL]
 ```
 
-_See code: [dist/commands/block/number.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v0.0.0/dist/commands/block/number.ts)_
+_See code: [dist/commands/block/number.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v1.0.0/dist/commands/block/number.ts)_
 
 ## `peek block transaction_hash [BLOCK_NUMBER]`
 
@@ -446,7 +446,7 @@ EXAMPLES
   $ peek block transaction_hash 4474398 --rpc_url=[PROVIDER_URL]
 ```
 
-_See code: [dist/commands/block/transaction_hash.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v0.0.0/dist/commands/block/transaction_hash.ts)_
+_See code: [dist/commands/block/transaction_hash.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v1.0.0/dist/commands/block/transaction_hash.ts)_
 
 ## `peek contract ADDRESS ABI`
 
@@ -491,7 +491,7 @@ EXAMPLES
   > await contract.setterFunction({value: '10000000000000'})
 ```
 
-_See code: [dist/commands/contract/index.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v0.0.0/dist/commands/contract/index.ts)_
+_See code: [dist/commands/contract/index.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v1.0.0/dist/commands/contract/index.ts)_
 
 ## `peek delete-abi NAME`
 
@@ -557,7 +557,7 @@ EXAMPLES
   > await contract.setterFunction({value: '10000000000000'})
 ```
 
-_See code: [dist/commands/deploy/index.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v0.0.0/dist/commands/deploy/index.ts)_
+_See code: [dist/commands/deploy/index.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v1.0.0/dist/commands/deploy/index.ts)_
 
 ## `peek event watch ADDRESS ABI EVENT`
 
@@ -595,7 +595,7 @@ EXAMPLES
   $ peek event watch 0xF51CD0d607c82db2B7EB670554C82C276A9549B4 erc20ABI Transfer --mainnet
 ```
 
-_See code: [dist/commands/event/watch.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v0.0.0/dist/commands/event/watch.ts)_
+_See code: [dist/commands/event/watch.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v1.0.0/dist/commands/event/watch.ts)_
 
 ## `peek events-watch ADDRESS ABI EVENT`
 
@@ -980,5 +980,5 @@ EXAMPLES
   $ peek wallet generate generateAccount --no-export
 ```
 
-_See code: [dist/commands/wallet/generate.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v0.0.0/dist/commands/wallet/generate.ts)_
+_See code: [dist/commands/wallet/generate.ts](https://github.com/Chuksremi15/chainpeekcli/blob/v1.0.0/dist/commands/wallet/generate.ts)_
 <!-- commandsstop -->
